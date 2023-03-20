@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class allBrowsersTemplet {
+
     public static String browser = "chrome";
     public static WebDriver driver;
 
