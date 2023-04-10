@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="renamed">
+<classes>
+    <class name="class01.priority">
+
+     <methods>
+         <exclude name="Btest"></exclude>
+<!--         <include name="Atest"/>-->
+<!--         <include name="Btest"/>-->
+     </methods>
+    </class>
+    <class name="class02.softAssertionExample">
+
+    </class>
+    <class name="class01.AssertionBasic">
+        <methods>
+            <include name="invalidCredentials"></include>
+        </methods>
+    </class>
+</classes>
+    </test>
+</suite>
