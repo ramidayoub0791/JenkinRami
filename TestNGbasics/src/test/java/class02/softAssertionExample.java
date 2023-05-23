@@ -50,7 +50,7 @@ public static WebDriver driver;
 
 //   login button is displayed or not
         boolean disp = loginBtn.isDisplayed();
-        System.out.println("the state of the display login is"+disp);
+        System.out.println("the state of the display login is "+disp);
 //        call soft assertion
         soft.assertTrue(disp);
 
